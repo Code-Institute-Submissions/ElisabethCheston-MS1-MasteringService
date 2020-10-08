@@ -2,23 +2,63 @@
 
 /* Navbar */
 
+.nav-text {
+    color: rgba(250, 250, 250, 0.2);
+}
+
+.navbar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
 
 /* Section */
+
+.callout-container {
+    height: 100%;
+    background:url("../images/studio.jpg") no-repeat bottom right fixed;
+    background-size: cover;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 
 /* Footer */
 
 footer {
-    background-color: #000000;
-    color: rgb(250, 250, 250);
+    background-color: rgba(0, 0, 0, 0.9)!important;
+    color: rgba(250, 250, 250, 0.8);
     min-height: 20px;
     padding-top: 6px;
-    padding-bottom: 4px;
+    padding-bottom: unset;
 }
 
 .social-links {
     padding-top: 6px;
-    padding-bottom: 4px;
+    padding-bottom: unset;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 4px 4px;
+    border-radius: 30%;
+    font-size: 20px;
+    line-height: 2px 2px;
+    text-align: center;
+    color: #fbfbfb;
+    background: #4f4f4f;
+
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4 ease-in-out;
+    -o-transition: all 0.4 ease-in-out;
 }
 
 
