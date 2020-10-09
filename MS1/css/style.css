@@ -2,9 +2,7 @@
 
 /* Navbar */
 
-.nav-text {
-    color: rgba(250, 250, 250, 0.2);
-}
+
 .navbar {
     padding-top: 5px;
     padding-bottom: 3px;
@@ -13,6 +11,11 @@
     border: 0px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.95)!important;
+}
+
+img.logo {
+    width: 18%;
+    height: ;
 }
 
 /* Section */
@@ -25,15 +28,15 @@
     column-width: center;
 }
 .transbox h5 {
-    padding-top: 4px;
+    padding-top: 16px;
     padding-left: 4px;
-    font-weight: bold;
+    font-weight: normal;
     color: rgba(250, 250, 250, 1.0);
 }
 .transbox p {
     padding-top: 4px;
     padding-left: 4px;
-    font-weight: bold;
+    font-weight: normal;
     color: rgba(250, 250, 250, 1.0);
 }
 .callout-container {
@@ -56,7 +59,8 @@
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
-    font-size: 14px;
+    padding-bottom: auto;
+    font-size: 15px;
 }
 
 .social-links {
