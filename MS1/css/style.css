@@ -2,9 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-@include media-breakpoint-up(sm) {
-    
-}
+
+
 
 
 /* Container */
@@ -102,6 +101,20 @@ img.logo {
     color: rgba(250, 250, 250, 1.0);
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*About*/
+
+.colum2 {
+    align-content: center;
+}
+
+.profile-container {
+    padding-top: 60px;
+}
 
 
 /* Footer */
@@ -121,9 +134,14 @@ img.logo {
 }
 
 .footer-col {
-    padding-top: px;
+    padding-top: 2px;
     padding-bottom: 3px;
 }
+
+.inline-block {
+    align-content: center;
+}
+
 .social-links {
     padding-top: 20px;
     padding-bottom: 8px;
@@ -154,3 +172,16 @@ img.logo {
     text-align: center;
 }
 
+.email {
+
+}
+
+.span {
+    color: rgba(0, 0, 0, 1.0)
+    transition: all 0.3s;
+}
+
+@media (max-width: 1024px)
+footer-col {
+    text-align:center;
+}
