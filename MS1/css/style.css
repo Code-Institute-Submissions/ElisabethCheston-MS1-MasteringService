@@ -12,9 +12,6 @@ body {
     -o-background-size: cover;
 }
 
-.text-wrap {
-    padding-left: 18px;
-}
 
 
 /* Container */
@@ -37,20 +34,24 @@ body {
 }
 
 img.logo {
-    width: 140px;
-    padding-left: 8px;
+    width: 145px;
+    padding-left: 10px;
     padding-top: 0px;
 }
 
 .text-wrap {
-    padding-top: 2px;
+    padding-top: 0px;
     padding-left: 14px;
     font-size: 18px;
     color: rgba(250, 250, 250, 0.9);
 }
 
 .navbar-header {
-    position: center;
+    position: center fixed;
+}
+
+.navbar-brand {
+    position: ;
 }
 
 .nav-item {
@@ -72,6 +73,7 @@ img.logo {
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
 }
+
 .colum2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -90,11 +92,63 @@ img.logo {
     column-width: cover;
 }
 
-
+/*Home*/
 
 /*About*/
 
+/*Portfolio*/
 
+/*Studio*/
+
+
+.studio-colum1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-weight: normal;
+    color: rgba(250, 250, 250, 0.95)!important;
+}
+
+.studio-colum2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-weight: normal;
+    color: rgba(250, 250, 250, 0.95)!important;
+    font-size: 14px;
+}
+
+/*Service*/
+
+.table-colum2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-weight: normal;
+    color: rgba(250, 250, 250, 0.95)!important;
+}
+
+.table-colum2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 30px;
+    font-weight: normal;
+    color: rgba(250, 250, 250, 0.95)!important;
+}
+
+/*Contact*/
 
 /* Footer */
 
