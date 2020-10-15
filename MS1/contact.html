@@ -7,7 +7,7 @@
     <title>Mastering Service</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -48,31 +48,31 @@
     <section>
         <div class="container-fluid callout-container container-bg">
             <div class="row transbox">
+
                 <div class="col-md-6 col-sm-12 contact-colum1">
                     <h6>ORDER REQUEST:</h6>
                     <form>
-                        <div class="form-group md-5 companyName">
+                        <div class="form-group md-5 input-group-sm companyName">
                                 <label for="CompanyName">Company Name:</label>
-                                    <input type="text" class="form-control" id="inputCompany" placeholder="company name">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Company name">
                         </div>
-                        <div class="form-group md-5 contactPerson">
+                        <div class="form-group md-5 input-group-sm contactPerson">
                                 <label for="ContactPerson">Contact Person:</label>
-                                    <input type="text" class="form-control" id="inputContact" placeholder="contact name">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Contact person">
                         </div>
-                        <div class="form-group md-5 projectInfo">
+                        <div class="form-group md-5 input-group-sm projectInfo">
                                 <label for="validationTextarea">Project Information:</label>
-                                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                                <div class="invalid-feedback">Any information you wish the engineer should know..</div>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Information about the project">
                         </div>
-                        <div class="form-group md-5 email">
+                        <div class="form-group md-5 input-group-sm email">
                                 <label for="inputEmail" class="col-form-label">Email:</label>
-                                    <input type="email" class="form-control" id="inputEmail">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email address">
                         </div>
-                        <div class="no-tracks-col-2">
+                        <div class="no-tracks-col-2 input-group-sm">
                                 <div class="form-row">
                                     <div class="no-tracks-col-2 col-3">
                                         <label class="mr-md-1" for="#inlineFormCustomSelect">No. Trk:</label>
-                                            <select class="custom-select mr-sm-2" id="inlineFormNumberOfTracks">
+                                            <select class="custom-select input-select-sm mr-sm-2" id="inlineFormNumberOfTracks">
                                                 <option selected>Choose...</option>
                                                 <option value="1">One</option>
                                                 <option value="2">Two</option>
@@ -128,7 +128,7 @@
                         </div>
                         <fieldset class="form-group">
                             <div class="row">
-                                <legend class="col-form-label col-sm-2 pt-0">Select at least one option:</legend>
+                                <legend class="col-form-label col-md-6 col-sm-6 pt-4">Select at least one option:</legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="gridSingleMain" id="gridSingleMain" value="option1">
@@ -153,15 +153,15 @@
                                 </div>
                             </div> 
                         </fieldset>
-                        <div class="form-group row">
+                        <div class="form-group btn-group-sm row">
                             <div class="col-sm-10">
-                                <button class="btn btn-primary" type="submit">Submit</button>
+                                <button class="btn btn-sm btn-primary" type="submit">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
 
-            <div class="col-md-6 col-sm-12 contact-colum2">
+                <div class="col-md-6 col-sm-12 contact-colum2">
                 <h6>BOOKING INFORMATION:</h6>
                 <p>If you’re thinking that filler text seems pretty boring and uncontroversial, you’d be wrong. 
                 Surprisingly, there is a very vocal faction of the design community that wants to see filler 
@@ -173,9 +173,8 @@
                 design process. Design first, with real content in mind (of course!), but don’t drop in the real 
                 content until the design is well on its way. Using filler text avoids the inevitable argumentation 
                 that accompanies the use of real content in the design process. C/O https://placeholder.com/text/ </p>
+                </div>
             </div>
-            </div>
-        </div>
         </div>
     </section>
 
