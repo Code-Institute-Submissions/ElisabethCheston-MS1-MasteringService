@@ -20,7 +20,7 @@
                     <a class="navbar-brand" href="#">
                         <div class="logo-image">
                         <p class="text-wrap">
-                            <img src="logga/logo6.png" class="logo img-fluid" alt="responsive image"/></br> MasteringEngineer
+                            <img src="logga/logo6.png" class="logo img-fluid" alt="responsive image"/><br/>MasteringEngineer
                         </p>
                         </div>
                     </a>
@@ -51,35 +51,35 @@
 
                 <div class="col-md-6 col-sm-12 contact-colum1">
                     <h6>ORDER REQUEST:</h6>
-                    
+                    <form class="needs-validation" novalidate>
                         <div class="form-row input-group-sm companyName">
-                                <label for="validationServer01">Company Name:</label>
-                                <input type="text" class="form-control is-valid" id="validationServer01" value="Company name" required>
+                                <label for="validationCustom01">Company Name:</label>
+                                <input type="text" class="form-control" id="validationCustom01" value="" required>
                                 <div class="valid-feeback">
                                 </div>
 
                         </div>
-                        <div class="form-row md-3 input-group-sm contactPerson">
-                                <label for="validationServer02">Contact Person:</label>
-                                <input type="text" class="form-control is-valid" id="validationServer02" value="Contact person" required>
+                        <div class="form-row input-group-sm contactPerson">
+                                <label for="validationCustom02">Contact Person:</label>
+                                <input type="text" class="form-control" id="validationCustom02" value="" required>
                                 <div class="valid-feeback">
                                 </div>
                         </div>
                         <div class="form-group input-group-sm projectInfo">
-                                <label for="validationServer03">Project Information:</label>
-                                <input type="text" class="form-control is-valid" id="validationServer03" value="Information about the project" required>
+                                <label for="validationCustom03">Project Information:</label>
+                                <input type="text" class="form-control" id="validationCustom03" value="" required>
                                 <div class="valid-feeback">
                                 </div>
                         </div> 
                         <div class="form-group input-group-sm email">
-                                <label for="validationServer04" class="col-form-label">Email:</label>
-                                <input type="text" class="form-control is-valid" id="validationServer04" value="Email address" required>
+                                <label for="validationCustom04" class="col-form-label">Email:</label>
+                                <input type="text" class="form-control" id="validationCustom04" value="" required>
                                 <div class="valid-feeback">
                                 </div>
                         </div>
-                        <div class="no-tracks-col-2 input-group-sm">
+                        <div class="no-tracks input-group-sm">
                                 <div class="form-row">
-                                    <div class="no-tracks-col-2 col-3">
+                                    <div class="no-tracks col-3">
                                         <label class="mr-md-1" for="#inlineFormCustomSelect">No. Trk:</label>
                                             <select class="custom-select input-select-sm mr-sm-2" id="inlineFormNumberOfTracks">
                                                 <option selected>Choose...</option>
@@ -97,7 +97,7 @@
                                                 <option value="12">Twelwe</option>
                                             </select>
                                     </div>
-                                    <div class="no-tracks-col-2 col-3">
+                                    <div class="no-tracks col-3">
                                         <label class="mr-md-1" for="#inlineFormCustomSelect">No. SB:</label>
                                             <select class="custom-select mr-sm-2" id="inlineFormNumberOfInsSB">
                                                 <option selected>Choose...</option>
@@ -135,28 +135,27 @@
                                     </div>
                                 </div>
                         </div>
-                        
-                        
-                            <div class="row form-group">
-                                <legend class="col-form-label">(Select at least one option:)</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-check">
+                    
+                        <div class="col-md-6 col-sm-12 row form-group">
+                            <legend class="col-form-label">(Select at least one option:)</legend>
+                            <div>
+                                <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="gridSingleMain" id="gridSingleMain" value="option1">
                                             <label class="form-check-label" for="gridSingleMain">Main Trk:</label>
-                                    </div>
-                                    <div class="form-check">
+                                </div>
+                                <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="gridInsSB" id="gridInsSB" value="option2">
                                             <label class="form-check-label" for="gridInsSB">SB/Ins:</label>
-                                    </div>
-                                    <div class="form-check">
+                                </div>
+                                <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="gridPreSingle" id="gridPreSingle" value="option3">
                                             <label class="form-check-label" for="gridPreSingle">PREMASTER Single 1-4 trk</label>
-                                    </div>
-                                    <div class="form-check">
+                                </div>
+                                <div class="form-check">
                                             <input class="form-check-input" type="checkbox" name="gridPreEP" id="gridPreEP" value="option4">
                                             <label class="form-check-label" for="gridPreEP">PREMASTER EP 5-7 trk</label>
-                                    </div>
-                                    <div class="form-check">
+                                </div>
+                                <div class="form-check-inline">
                                         <input class="form-check-input" type="checkbox" name="gridPreAlbum" id="gridPreAlbum" value="option5">
                                         <label class="form-check-label" for="gridPreAlbum">PREMASTER Album 8 - ></label>
                                        
@@ -181,7 +180,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div
+                                </div>
                             </div>
                         </div>
                     </form>
