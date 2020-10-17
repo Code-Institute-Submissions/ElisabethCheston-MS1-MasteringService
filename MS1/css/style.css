@@ -16,18 +16,15 @@ body {
     -o-background-size: cover;
 }
 
-.h6 {
+.h5 {
     color: rgba(250, 250, 250, 0.9);
 }
 
                 /* Section */
 
 .transbox {
-    height: 100%;
-    width: 100%;
-    position: center fixed;
     background-color: rgba(0, 0, 0, 0.75)!important;
-    column-width: cover;
+    column-width: center;
 }
                 /* Navbar */
 
@@ -49,7 +46,7 @@ img.logo {
 }
 .text-wrap {
     padding-top: 0px;
-    padding-left: 14px;
+    padding-left: 8px;
     font-size: 18px;
     color: rgba(250, 250, 250, 0.9);
 }
@@ -57,7 +54,7 @@ img.logo {
     position: center fixed;
 }
 .navbar-expand-md {
-    margin: 8px;
+    margin: 0px;
 }
 .nav-item {
     padding-top: 5px;
@@ -78,6 +75,10 @@ img.logo {
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
 }
+.carousel {
+    vertical-align: middle;
+    padding-left: 0px;
+}
 .home-colum2 {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -94,11 +95,12 @@ img.logo {
     padding-top: 20px;
     padding-bottom: 10px;
     display: auto;
-    margin: auto;
+    
     vertical-align: middle;
-    padding-left: 30px;
+    padding-left: 20px;
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
+    
 }
 .about-colum2 {
     padding-top: 20px;
@@ -106,10 +108,12 @@ img.logo {
     display: auto;
     margin: auto;
     vertical-align: middle;
-    padding-left: 30px;
+    padding-left: 26px;
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
 }
+
+
                 /*Portfolio*/
 
 .container-portfolio {
@@ -170,6 +174,7 @@ img.logo {
     color: rgba(250, 250, 250, 0.95)!important;
 }
 .service-colum2 {
+    padding-right: 28px;
     padding-top: 20px;
     padding-bottom: 10px;
     display: auto;
@@ -177,7 +182,20 @@ img.logo {
     vertical-align: middle;
     padding-left: 0px;
     font-size: 14px;
-    color: rgba(250, 250, 250, 0.95)
+    color: rgba(250, 250, 250, 0.95);
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.table-hover {
+    background-color: rgba(19, 19, 18, 0.8);
+    color: rgba(250, 250, 250, 0.95);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.table-sm tr td:nth-child(2) {
+    width: 100%;
+    margin-right: 8px;
 }
 
                 /*Contact*/
@@ -234,9 +252,14 @@ img.logo {
     font-size: 14px;
 }
 .contact {
-    text-align: center;
     font-size: 15px;
     color: rgba(250, 250, 250, 0.9);
+    padding: center;
+    text-align: center;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 3px;
 }
 .social-links {
     padding-top: 20px;
