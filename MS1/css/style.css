@@ -19,8 +19,7 @@ body {
     color: rgba(250, 250, 250, 0.9);
 }
 a:link {
-    color: rgba(238, 163, 78, 0.98);
-    
+    color: rgba(238, 170, 78, 0.98);
     text-decoration: none;
 }
 a:visited {
@@ -46,7 +45,9 @@ a:hover {
     padding-bottom: 0px;
     padding-left:0px;
     padding-right: 0px;
+    margin-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.85)!important;
+  
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4 ease-in-out;
@@ -54,17 +55,22 @@ a:hover {
 }
 .navbar-brand {
     position: right fixed;
-    padding-left: px;
+    padding-left: 0px;
+}
+.navbar-expand-md {
+    margin-top: 40px;
+}
+.nav-link {
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    font-style: bolder;
+    color: rgba(250, 180, 70, 0.88)!important;
 }
 
-.navbar-expand-md {
-    margin-top: 25px;
-}
-.nav-item nav-link {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 16px;
-    color: rgba(250, 250, 250, 0.7);
+.navbar-toggler {
+    margin-bottom: 20px;
+    margin-right: 5px;
 }
 
                 /*Home*/
