@@ -15,7 +15,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 .h5 {
     color: rgba(250, 250, 250, 0.9);
 }
@@ -42,7 +41,7 @@ a:hover {
                 /* Navbar */
 
 .navbar-nav {
-    height: 75px;
+    height: auto;
     justify-content: space-between;
     padding-bottom: 0px;
     padding-left:0px;
@@ -58,7 +57,10 @@ a:hover {
     padding-left: px;
 }
 
-.nav-item {
+.navbar-expand-md {
+    margin-top: 25px;
+}
+.nav-item nav-link {
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 16px;
