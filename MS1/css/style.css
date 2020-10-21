@@ -104,11 +104,13 @@ a:hover {
     padding-right: 30px;
     padding-left: 30px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
     background-color: rgba(0, 0, 0, 0.80);
 }
 .about-colum2 {
+
+    margin: 9% 1% 1% 1%;
    text-align: center;
    vertical-align: middle;
 }
