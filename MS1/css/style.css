@@ -35,7 +35,7 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(0, 0, 0, 0.85)!important;
+    background-color: rgba(0, 0, 0, 0.4)!important;
     column-width: center;
 }
                 /* Navbar */
@@ -92,40 +92,34 @@ a:hover {
     display: auto;
     margin: auto;
     vertical-align: middle;
-    padding-left: 0px;
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
 }
-.carousel {
+.carousel-slide {
     vertical-align: middle;
     position: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: auto;
 }
 
                 /*Engineer*/
 
 .about-colum1 {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     display: auto;
     vertical-align: middle;
-    font-weight: normal;
-    color: rgba(253, 252, 250, 0.9)!important;
     font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 .about-colum2 {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: auto;
     margin: auto;
     vertical-align: middle;
-    font-weight: normal;
-    color: rgba(253, 252, 250, 0.9)!important;
-
-
 }
 
                 /*Portfolio*/
@@ -169,54 +163,38 @@ a:hover {
                 /*Studio*/
 
 .studio-colum1 {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: auto;
     margin: auto;
     vertical-align: middle;
-    font-weight: normal;
-    color: rgba(253, 252, 250, 0.9)!important;
 }
 .studio-colum2 {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     display: auto;
-    margin: auto;
     vertical-align: middle;
-    font-weight: normal;
+    font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.70);
 }
                 /*Service*/
 
 .service-colum1 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     display: auto;
-    margin: auto;
     vertical-align: middle;
-    font-weight: normal;
+    font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 .service-colum2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     display: auto;
-    margin: auto;
     vertical-align: middle;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.40);
-    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 
 .table-sm tr td:nth-child(2) {
@@ -228,21 +206,34 @@ a:hover {
 
                 /*Prices*/
 
+.prices-colum1 {
+    
+    font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.prices-colum2 {
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
+    display: auto;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.col {
+    padding-left: 10px;
+}
 
                 /*Booking*/
-
-
-                /*Contact*/
-
-.contact-colum1 {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: center;
-    font-weight: normal;
-    color: rgba(253, 252, 250, 0.9)!important;
+.booking-colum1 {
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
+    display: auto;
+    vertical-align: middle;
     font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 .form-row {
     margin-top: 20px;
@@ -266,15 +257,28 @@ a:hover {
 .form-text {
     font-size: 14px;
 }
-.contact-colum2 {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+.booking-colum2 {
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
     display: auto;
+    vertical-align: middle;
+    font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.70);
 }
+
+                /*Contact*/
+
+.contact-colum1 {
+    margin: 2% 2% 2% 2%;
+    padding: 3% 3% 3% 3%;
+    display: auto;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
 
                 /* Footer */
 
