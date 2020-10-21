@@ -35,7 +35,7 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(0, 0, 0, 0.4)!important;
+    background-color: rgba(0, 0, 0, 0.6)!important;
     column-width: center;
 }
                 /* Navbar */
@@ -86,57 +86,36 @@ a:hover {
 
                 /*Home*/
 
-.home-colum1 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    display: auto;
-    margin: auto;
-    vertical-align: middle;
-    font-weight: normal;
-    color: rgba(250, 250, 250, 0.95)!important;
-}
+
 .carousel-slide {
-    vertical-align: middle;
-    position: center;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-left: 3%;
-    padding-right: 3%;
-    display: auto;
+    padding: 4% 4% 4% 4%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(253, 252, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
                 /*Engineer*/
 
 .about-colum1 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 .about-colum2 {
-    display: auto;
-    margin: auto;
-    vertical-align: middle;
+   text-align: center;
+   vertical-align: middle;
 }
 
                 /*Portfolio*/
 
-.grid {
-    align-items: stretch;
-}
 
-.griditems {
-    display: flex;
-    align-items: center;
-}
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
 .text-block-portfolio {
     position: absolute;
     bottom: 15px;
@@ -163,38 +142,47 @@ a:hover {
                 /*Studio*/
 
 .studio-colum1 {
-    display: auto;
-    margin: auto;
-    vertical-align: middle;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+   vertical-align: middle;
 }
 .studio-colum2 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
                 /*Service*/
 
 .service-colum1 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 .service-colum2 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 
 .table-sm tr td:nth-child(2) {
@@ -208,18 +196,20 @@ a:hover {
 
 .prices-colum1 {
     
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 .prices-colum2 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 .col {
     padding-left: 10px;
@@ -227,13 +217,16 @@ a:hover {
 
                 /*Booking*/
 .booking-colum1 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     display: auto;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.80);
 }
 .form-row {
     margin-top: 20px;
@@ -258,25 +251,29 @@ a:hover {
     font-size: 14px;
 }
 .booking-colum2 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
                 /*Contact*/
 
 .contact-colum1 {
-    margin: 2% 2% 2% 2%;
-    padding: 3% 3% 3% 3%;
-    display: auto;
+    margin: 5% 2% 2% 3%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.9)!important;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
