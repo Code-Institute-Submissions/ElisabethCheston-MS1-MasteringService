@@ -35,7 +35,7 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(0, 0, 0, 0.8)!important;
+    background-color: rgba(0, 0, 0, 0.85)!important;
     column-width: center;
 }
                 /* Navbar */
@@ -80,6 +80,9 @@ a:hover {
     margin-bottom: 20px;
     margin-right: 5px;
 }
+#navbarNavDropdown {
+    padding-bottom: 20px;
+}
 
                 /*Home*/
 
@@ -89,25 +92,16 @@ a:hover {
     display: auto;
     margin: auto;
     vertical-align: middle;
-    padding-left: 20px;
+    padding-left: 0px;
     font-weight: normal;
     color: rgba(250, 250, 250, 0.95)!important;
 }
 .carousel {
     vertical-align: middle;
-    padding-left: 0px;
+    position: center;
 }
-.home-colum2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    display: auto;
-    margin: auto;
-    vertical-align: middle;
-    padding-left: 20px;
-    font-weight: normal;
-    color: rgba(250, 250, 250, 0.95)!important;
-}
-                /*About*/
+
+                /*Engineer*/
 
 .about-colum1 {
     padding-top: 40px;
@@ -118,10 +112,10 @@ a:hover {
     vertical-align: middle;
     font-weight: normal;
     color: rgba(253, 252, 250, 0.9)!important;
-    font-size: 12px;
+    font-size: 14px;
 }
 .about-colum2 {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -136,6 +130,14 @@ a:hover {
 
                 /*Portfolio*/
 
+.grid {
+    align-items: stretch;
+}
+
+.griditems {
+    display: flex;
+    align-items: center;
+}
 .bottom-left {
     position: absolute;
     bottom: 8px;
@@ -237,8 +239,6 @@ a:hover {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-block-start: 40px;
-    margin-left: 50px;
     display: center;
     font-weight: normal;
     color: rgba(253, 252, 250, 0.9)!important;
