@@ -47,43 +47,42 @@
         <div class="container-fluid callout-container container-bg">
             <div class="row transbox">
             
-                <div class="col-md-10 col-sm-12 service-colum1">
-                    <h6>SERVICE</h6>
+                <div class="col-md-8 col-sm-12 service-colum1">
+                    <h6>REQUEST BOOKING</h6>
                         
-                            <form class="needs-validation" novalidate>
+                    <form class="needs-validation" novalidate>
                                 <div class="form-group">
-
                                     <div class="form-group input-group-sm companyName">
                                         <label for="validationCustom01">Company Name:</label>
                                         <input type="text" class="form-control form-control-sm" id="validationCustom01" value="" required>
-                                        <div class="valid-feeback">Thank you!
+                                        <div class="valid-feeback">
                                     </div>
                                     </div>
                                     <div class="form-group input-group-sm contactPerson">
                                         <label for="validationCustom02">Contact Person:</label>
                                         <input type="text" class="form-control form-control-sm" id="validationCustom02" value="" required>
-                                        <div class="valid-feeback">Thank you!
+                                        <div class="valid-feeback">
                                     </div>
                                     </div>
                                     <div class="form-group input-group-sm projectInfo">
                                         <label for="validationCustom03">Project Information:</label>
                                         <input type="text" class="form-control form-control-sm" id="validationCustom03" value="" required>
-                                        <div class="invalid-feeback">You forgot to write.
+                                        <div class="invalid-feeback">
                                         </div>
                                     </div> 
                                     <div class="form-group input-group-sm email">
                                         <label for="validationCustom04">Project Information:</label>
                                         <input type="emal" class="form-control form-control-sm" id="validationCustom04" value="" required>
-                                        <div class="invalid-feeback">Enter a valid email address.
+                                        <div class="invalid-feeback">
                                         </div>
                                     </div>
                                     <div class="no-tracks input-group-sm">
-                                        <div class="form-row">
+                                        <div class="form-row d-flex justify-content-around">
 
                                             <div class="no-tracks col-3">
-                                                <label class="mr-md-1" for="#inlineFormCustomSelect">Main Trk:</label>
-                                                    <select class="form-control form-control-sm" id="inlineFormNumberOfTracks">
-                                                        <option selected>No.</option>
+                                                <label class="mr-md-1" for="#inlineFormCustomSelect">Main Track:</label>
+                                                    <select class="form-control form-control-sm" id="inlineFormNumberOfTracks" value="" required>
+                                                        <option selected></option>
                                                         <option value="0">0</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -101,9 +100,9 @@
                                                 
                                             </div>
                                             <div class="no-tracks col-3">
-                                                <label class="mr-md-1" for="#inlineFormCustomSelect">SB Trk:</label>
-                                                    <select class="form-control form-control-sm" id="inlineFormNumberOfInsSB">
-                                                        <option selected>No.</option>
+                                                <label class="mr-md-1" for="#inlineFormCustomSelect">SB Track:</label>
+                                                    <select class="form-control form-control-sm" id="inlineFormNumberOfInsSB" value="" required>
+                                                        <option selected></option>
                                                         <option value="0">0</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -121,9 +120,9 @@
                                                     
                                             </div>
                                             <div class="no-tracks-col-2 col-3">
-                                                <label class="mr-md-1" for="#inlineFormCustomSelect">Ins Trk:</label>
-                                                    <select class="form-control form-control-sm" id="inlineFormCustomSelect">
-                                                        <option selected>No.</option>
+                                                <label class="mr-md-1" for="#inlineFormCustomSelect">Ins Track:</label>
+                                                    <select class="form-control form-control-sm" id="inlineFormCustomSelect" value="" required>
+                                                        <option selected></option>
                                                         <option value="0">0</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -143,80 +142,67 @@
                                         </div>
                                     </div>
                                     <div class="row-form form-group">
-                                    <legend class="col-form-label">(Only for press production:)</legend>
-                                    <div>
-                                
-                                <div class="form-check custom-control custom-radio">
-                                            <input class="custom-control-input" type="checkbox" name="gridPreSingle" id="customControlValidation1" required>
-                                            <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
-                                </div>
-                                <div class="form-check custom-control custom-radio">
-                                            <input class="custom-control-input" type="checkbox" name="gridPreEP" id="customControlValidation2" required>
-                                            <label class="custom-control-label" for="customControlValidation2">PREMASTER EP</label>
-                                </div>
-                                <div class="form-check-inline custom-control custom-radio">
-                                        <input class="custom-control-input" type="checkbox" name="gridPreAlbum" id="customControlValidation3" required>
-                                        <label class="custom-control-label" for="customControlValidation3">PREMASTER Album</label>
-                                </div>
-                                <div class="form-check-inline custom-control custom-radio">
-                                        <input class="custom-control-input" type="checkbox" name="gridPreAlbum" id="customControlValidation4" required>
-                                        <label class="custom-control-label" for="customControlValidation4">None</label>
-                                </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                    <label class="form-check-label" for="invalidCheck">
-                                        Agree to terms and conditions
-                                    </label>
-                                    <div class="invalid-feedback">
-                                        You must agree before submitting.
-                                    </div>
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary" type="submit">Submit form</button>
-                            </form>
-                        <script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-</script>
-
-    </div>
-                    <div class="modal fade" id="mymodal">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5>Thank you!</h5>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <p>Your order have been successfully completed. Once you receve the conformation email, you can go ahead and send your files. Our engineer will be in contact within 24h.</p>
-                                                </div>
-                                                <div class="modal-footer">
-                                                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-                                                </div>
+                                    <div class="form-row">
+                                        <legend class="col-form-label">(Choose one:)</legend>
+                                        <div>
+                                            <div class="form-check custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation1" required>
+                                                <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
+                                            </div>
+                                            <div class="form-check custom-control custom-radio mb-3">
+                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation2" required>
+                                                <label class="custom-control-label" for="customControlValidation2">PREMASTER EP</label>
+                                            </div>
+                                            <div class="form-check custom-control custom-radio mb-3">
+                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation3" required>
+                                                <label class="custom-control-label" for="customControlValidation3">PREMASTER Album</label>
+                                            </div>
+                                            <div class="form-check custom-control custom-radio mb-3">
+                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation4" required>
+                                                <label class="custom-control-label" for="customControlValidation4">None</label>
                                             </div>
                                         </div>
+                                        </div>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-primary " type="submit">Submit Request</button>
+                                </div>
+                            </div>
+                    </form>
+                    <script>
+                        (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                            var forms = document.getElementsByClassName('needs-validation');
+                            var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                                if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                            });
+                        }, false);
+                        })();
+                    </script>
+                    <div class="modal fade" id="mymodal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>Thank you!</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Your order have been successfully completed. Once you receve the conformation email, you can go ahead and send your files. Our engineer will be in contact within 24h.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
-                    
-                </div>
 
-                
+                </div>
             </div>
         </div>
     </section>
