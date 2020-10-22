@@ -52,27 +52,27 @@
                 
                     <form class="needs-validation" novalidate>
                         <div class="form-group input-group-sm companyName">
-                                <label for="validationTooltip01">Company Name:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationTooltip01" value="" required>
-                                <div class="valid-tooltip">
+                                <label for="validationCustom01">Company Name:</label>
+                                <input class="form-control form-control-sm" type="text" id="validationCustom01" value="" required>
+                                <div class="valid-feeback">
                                 </div>
                         </div>
                         <div class="form-group input-group-sm contactPerson">
-                                <label for="validationTooltip02">Contact Person:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationTooltip02" value="" required>
-                                <div class="valid-tooltip">
+                                <label for="validationCustom02">Contact Person:</label>
+                                <input class="form-control form-control-sm" type="text" id="validationCustom02" value="" required>
+                                <div class="valid-feeback">
                                 </div>
                         </div>
                         <div class="form-group input-group-sm projectInfo">
-                                <label for="validationTooltip03">Project Name:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationTooltip03" value="" required>
+                                <label for="validationCustom03">Project Name:</label>
+                                <input class="form-control form-control-sm" type="text" id="validationCustom03" value="" required>
                                 <div class="valid-feeback">
                                 </div>
                         </div> 
                         <div class="form-group input-group-sm email">
-                                <label for="validationTooltip04" class="col-form-label">Email:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationTooltip04" value="" required>
-                                <div class="valid-tooptip">
+                                <label for="validationCustom04" class="col-form-label">Email:</label>
+                                <input class="form-control form-control-sm" type="text" id="validationCustom04" value="" required>
+                                <div class="valid-feeback">
                                 </div>
                         </div>
                         <div class="no-tracks input-group-sm">
@@ -143,17 +143,21 @@
                             <legend class="col-form-label">(Only for press production:)</legend>
                             <div>
                                 
-                                <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="gridPreSingle" id="gridPreSingle" value="option3">
-                                            <label class="form-check-label" for="gridPreSingle">PREMASTER Single</label>
+                                <div class="form-chec custom-control custom-radio">
+                                            <input class="custom-control-input" type="checkbox" name="gridPreSingle" id="customControlValidation1" required>
+                                            <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
                                 </div>
-                                <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" name="gridPreEP" id="gridPreEP" value="option4">
-                                            <label class="form-check-label" for="gridPreEP">PREMASTER EP</label>
+                                <div class="form-check custom-control custom-radio">
+                                            <input class="custom-control-input" type="checkbox" name="gridPreEP" id="customControlValidation2" required>
+                                            <label class="custom-control-label" for="customControlValidation2">PREMASTER EP</label>
                                 </div>
-                                <div class="form-check-inline">
-                                        <input class="form-check-input" type="checkbox" name="gridPreAlbum" id="gridPreAlbum" value="option5">
-                                        <label class="form-check-label" for="gridPreAlbum">PREMASTER Album</label>
+                                <div class="form-check-inline custom-control custom-radio">
+                                        <input class="custom-control-input" type="checkbox" name="gridPreAlbum" id="customControlValidation3" required>
+                                        <label class="custom-control-label" for="customControlValidation3">PREMASTER Album</label>
+                                </div>
+                                <div class="form-check-inline custom-control custom-radio">
+                                        <input class="custom-control-input" type="checkbox" name="gridPreAlbum" id="customControlValidation4" required>
+                                        <label class="custom-control-label" for="customControlValidation4">None</label>
                                        
                                     <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#mymodal">
                                     Submit
