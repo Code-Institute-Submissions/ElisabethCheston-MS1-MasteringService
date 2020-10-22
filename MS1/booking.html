@@ -53,26 +53,26 @@
                     <form class="needs-validation" novalidate>
                         <div class="form-group input-group-sm companyName">
                                 <label for="validationCustom01">Company Name:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationCustom01" value="" required>
-                                <div class="valid-feeback">
+                                <input type="text" class="form-control form-control-sm" id="validationCustom01" value="Company Name" required>
+                                <div class="valid-feeback">Thank you!
                                 </div>
                         </div>
                         <div class="form-group input-group-sm contactPerson">
                                 <label for="validationCustom02">Contact Person:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationCustom02" value="" required>
-                                <div class="valid-feeback">
+                                <input type="text" class="form-control form-control-sm" id="validationCustom02" value="Contact Person" required>
+                                <div class="valid-feeback">Thank you!
                                 </div>
                         </div>
                         <div class="form-group input-group-sm projectInfo">
-                                <label for="validationCustom03">Project Name:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationCustom03" value="" required>
-                                <div class="valid-feeback">
+                                <label for="validationCustom03">Project Information:</label>
+                                <input type="text" class="form-control form-control-sm" id="validationCustom03" value="Single 2-tracks + SB" required>
+                                <div class="invalid-feeback">You forgot to write.
                                 </div>
                         </div> 
                         <div class="form-group input-group-sm email">
-                                <label for="validationCustom04" class="col-form-label">Email:</label>
-                                <input class="form-control form-control-sm" type="text" id="validationCustom04" value="" required>
-                                <div class="valid-feeback">
+                                <label for="validationCustom04">Project Information:</label>
+                                <input type="emal" class="form-control form-control-sm" id="validationCustom04" value="Single 2-tracks + SB" required>
+                                <div class="invalid-feeback">Enter a valid email address.
                                 </div>
                         </div>
                         <div class="no-tracks input-group-sm">
@@ -143,7 +143,7 @@
                             <legend class="col-form-label">(Only for press production:)</legend>
                             <div>
                                 
-                                <div class="form-chec custom-control custom-radio">
+                                <div class="form-check custom-control custom-radio">
                                             <input class="custom-control-input" type="checkbox" name="gridPreSingle" id="customControlValidation1" required>
                                             <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
                                 </div>
@@ -166,7 +166,30 @@
                             </div>
                         </div>
                     </form>
-                    
+
+                        <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+
+        <!--Modal-->
                 </div>
                     <div class="modal fade" id="mymodal">
                                         <div class="modal-dialog">
