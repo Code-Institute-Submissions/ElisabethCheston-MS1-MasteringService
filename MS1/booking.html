@@ -46,7 +46,7 @@
         <div class="container-fluid callout-container container-bg">
             <div class="row transbox">
 
-                <div class="col-md-4 col-sm-12 booking-colum1">
+                <div class="col-md-5 col-sm-12 booking-colum1">
                 
                     <h6>BOOKING INFORMATION:</h6>
                     <br/>
@@ -80,14 +80,19 @@
                             will be sent to your email for verification.</p> 
                         </div>
                     </div>
-                 
-                </div>
+                    <div class="d-flex align-content-end align-self-center">
+                        <button class="btn btn-primary" type="submit"  data-toggle="modal" data-target="#staticBackdrop">ORDER REQUEST
+                        </button>
 
-                <div class="col-md-6 col-sm-12 booking-colum2">
-                    <h6>REQUEST BOOKING</h6>
-                        
-                    <form class="needs-validation" novalidate action="mailto:elisabeth.cheston@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-                        <div class="form-group">
+                        <div class="modal fade" id="staticBackdrop">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5>ORDER REQUEST</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="needs-validation" novalidate action="mailto:elisabeth.cheston@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                                            <div class="form-group">
 
                             <div class="form-group input-group-sm companyName">
                                 <label for="validationCustom01">Company Name:</label>
@@ -115,10 +120,10 @@
                             </div>
                         </div>
                         <div class="no-tracks input-group-sm">
-                                <div class="form-row d-flex justify-content-around">
-                                    <div class="no-tracks col-3">
-                                        <label class="mr-md-1" for="#inlineFormCustomSelect">Main Trk:</label>
-                                            <select class="form-control form-control-sm" id="inlineFormCustomSelect" value="mainTracks" required>
+                            <div class="form-row d-flex justify-content-around">
+                                <div class="no-tracks col-3">
+                                    <label class="mr-md-1" for="#inlineFormCustomSelect">Main Trk:</label>
+                                        <select class="form-control form-control-sm" id="inlineFormCustomSelect" value="mainTracks" required>
                                                 <option selected></option>
                                                 <option value="0">0</option>
                                                 <option value="1">1</option>
@@ -133,7 +138,7 @@
                                                 <option value="10">10</option>
                                                 <option value="11">11</option>
                                                 <option value="12">12</option>
-                                            </select>
+                                        </select>
                                                 
                                     </div>
                                     <div class="no-tracks col-3">
@@ -202,33 +207,39 @@
                                     <div class="d-flex align-content-end align-self-center">
                                         <button class="btn btn-primary" type="submit">SUBMIT REQUEST
                                         </button>
-
-                    <!-- Modal -->
-                                    
-
+                   
+                                    </div>
                                 </div>
-
+                            </div>
+                                        </form>
+                    <!--Validation-->
+                                        <script>
+                                            (function() {
+                                            'use strict';
+                                            window.addEventListener('load', function() {
+                                                var forms = document.getElementsByClassName('needs-validation');
+                                                var validation = Array.prototype.filter.call(forms, function(form) {
+                                                form.addEventListener('submit', function(event) {
+                                                    if (form.checkValidity() === false) {
+                                                    event.preventDefault();
+                                                    event.stopPropagation();
+                                                    }
+                                                    form.classList.add('was-validated');
+                                                }, false);
+                                                });
+                                            }, false);
+                                            })();
+                                        </script>
+                                        <input class="form-control">
+                                    </div>
+                                    <div class="moadal-footer">
+                                    <input class="btn btn-primary" data-dismiss="modal" value="Close">
+                                </div>
                             </div>
                         </div>
-                    </form>
-                    <!--Validation-->
-                    <script>
-                        (function() {
-                        'use strict';
-                        window.addEventListener('load', function() {
-                            var forms = document.getElementsByClassName('needs-validation');
-                            var validation = Array.prototype.filter.call(forms, function(form) {
-                            form.addEventListener('submit', function(event) {
-                                if (form.checkValidity() === false) {
-                                event.preventDefault();
-                                event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                            }, false);
-                            });
-                        }, false);
-                        })();
-                    </script>
+                    </div>
+                    <a href="#" data-toggle="modal" data-target="#staticBackdrop"></a>
+                </div>
                 </div>
             </div>
         </div>
