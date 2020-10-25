@@ -38,7 +38,8 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(0, 0, 0, 0.45)!important;
+    background-color: rgba(17, 16, 16, 0.7)!important;
+    
     width: 100%;
     height: 100%;
 }
@@ -232,11 +233,13 @@ a:hover {
 
 
 .booking-colum1 {
-    margin: 0% 0% 0% 3%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin: 4% 3% 3% 3%;
+    border-color: rgba(252, 190, 56, 0.98);
+    border-radius: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.95)!important;
@@ -293,8 +296,10 @@ a:hover {
     background-color: rgba(50, 50, 50, 0.96)
 }
 .modal-footer {
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     background-color: rgba(60, 60, 60, 0.96)
 }
 .btn-secondary {
