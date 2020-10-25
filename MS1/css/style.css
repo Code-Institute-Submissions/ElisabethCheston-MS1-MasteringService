@@ -38,7 +38,7 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(17, 16, 16, 0.7)!important;
+    background-color: rgba(26, 17, 17, 0.2)!important;
     
     width: 100%;
     height: 100%;
@@ -88,8 +88,11 @@ a:hover {
 
                 /*Home*/
 .carousel-item, h2 {
-    font-style: bold;
-    color: rgba(212, 135, 26, 0.98)
+    font-style: bolder;
+    color: rgba(231, 153, 49, 0.98)
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 
@@ -97,14 +100,14 @@ a:hover {
                 /*Engineer*/
 
 .container-engineer {
-    margin: 0% 0% 0% 0%;
+    margin: 0% 0% % 0%;
 }
 .about-colum1 {
     margin: 0% 0% 0% 0%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.95)!important;
@@ -169,7 +172,7 @@ a:hover {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(253, 252, 250, 0.95)!important;
@@ -180,7 +183,7 @@ a:hover {
                 /*Prices*/
 
 .container-prices {
-    margin: 0% 9% 0% 2%;
+    margin: 0% 0% 0% 0%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
@@ -189,7 +192,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.92);
 }
 .prices-colum1 {
-    margin: 0% 1% 0% 2%;
+    margin: 0% 1% 0% 1%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
