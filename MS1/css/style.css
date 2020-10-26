@@ -196,49 +196,42 @@ a:hover {
 }
 .prices-colum1 {
     margin: 0% 1% 0% 1%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(95, 90, 78, 0.95)!important;
     background-color: rgba(250, 249, 246, 0.92);
 }
 .prices-colum2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(95, 90, 78, 0.95)!important;
     background-color: rgba(250, 249, 246, 0.92);
 }
 .prices-colum3 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(95, 90, 78, 0.95)!important;
     background-color: rgba(250, 249, 246, 0.92);
 }
 .prices-colum4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
     color: rgba(95, 90, 78, 0.95)!important;
     background-color: rgba(250, 249, 246, 0.92);
 }
-.prices-colum5 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    vertical-align: middle;
-    text-align: center;
-}
+
 
 .price-header {
     color: rgba(238, 170, 78, 0.95)
