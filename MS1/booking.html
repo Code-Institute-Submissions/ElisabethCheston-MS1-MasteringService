@@ -46,7 +46,7 @@
         <div>
             <div class="transbox">
                 <div class="row">
-                    <div class="container-engineer col-md-12">
+                    <div class="container-booking col-md-12">
                         <div class="row d-flex justify-content-around">
                     
                             <div class="col-md-4 booking-colum1">
@@ -210,12 +210,10 @@
                                                                     <div class="d-flex align-content-end align-self-center">
                                                                         <button class="btn btn-primary" type="submit">SUBMIT REQUEST
                                                                         </button>
-                            
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                 </form> 
-
                                             </div>
                                             <div class="modal-footer">
                                                 <p>Important!
@@ -225,31 +223,29 @@
                                             </div>
                                         </div>
                                     </div>
-                                <script>
-                                                        (function() {
-                                                        'use strict';
-                                                        window.addEventListener('load', function() {
-                                                            var forms = document.getElementsByClassName('needs-validation');
-                                                            var validation = Array.prototype.filter.call(forms, function(form) {
-                                                            form.addEventListener('submit', function(event) {
-                                                                if (form.checkValidity() === false) {
-                                                                    event.preventDefault();
-                                                                    event.stopPropagation();
-                                                                } else {
-                                                                    event.preventDefault();
-                                                                    event.stopPropagation();
-                                                                    alert('Thank you!');
-                                                                }
-                                                                form.classList.add('was-validated');
-                                                                
+                                    <script>
+                                                            (function() {
+                                                            'use strict';
+                                                            window.addEventListener('load', function() {
+                                                                var forms = document.getElementsByClassName('needs-validation');
+                                                                var validation = Array.prototype.filter.call(forms, function(form) {
+                                                                form.addEventListener('submit', function(event) {
+                                                                    if (form.checkValidity() === false) {
+                                                                        event.preventDefault();
+                                                                        event.stopPropagation();
+                                                                    } else {
+                                                                        event.preventDefault();
+                                                                        event.stopPropagation();
+                                                                        alert('Thank you!');
+                                                                    }
+                                                                    form.classList.add('was-validated');
+                                                                    
+                                                                }, false);
+                                                                });
                                                             }, false);
-                                                            });
-                                                        }, false);
-                                                        })();
-                                </script>
-
+                                                            })();
+                                    </script>
                                 </div>
-
                             </div>
                         </div>
                     </div>
