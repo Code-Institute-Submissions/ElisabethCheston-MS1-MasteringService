@@ -38,7 +38,7 @@ a:hover {
                 /* Section */
 
 .transbox {
-    background-color: rgba(3, 3, 3, 0.5)!important;
+    background-color: rgba(3, 3, 3, 0.3)!important;
     
     width: 100%;
     height: 100%;
@@ -52,7 +52,7 @@ a:hover {
     padding-left:0px;
     padding-right: 0px;
     margin-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.95)!important;
+    background-color: rgba(0, 0, 0, 0.8)!important;
   
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -71,6 +71,7 @@ a:hover {
     font-weight: bold;
     font-size: 15px;
     color: rgba(238, 170, 78, 0.90)!important;
+    background-color: rgba(0, 0, 0, 0.8)!important;
     
 
 }
@@ -102,29 +103,26 @@ a:hover {
 
                 /*Engineer*/
 
-.container-engineer {
-    margin: 0% 0% 0% 0%;
-}
+
 .about-colum1 {
-    margin: 0% 0% 0% 0%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
-    padding-left: 30px;
-    vertical-align: middle;
-    font-size: 14px;
-    color: rgba(95, 90, 78, 0.95)!important;
-    background-color: rgba(250, 249, 246, 0.92);
-}
-.about-colum2 {
-    margin: 0% 0% 0% 0%;
+    margin: 0% 1% 0% 1%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
     padding-left: 20px;
     vertical-align: middle;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.95)!important;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.about-colum2 {
+    margin: 8% 0% 0% 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.02);
 }
 
 
@@ -157,15 +155,14 @@ a:hover {
 
                 /*Studio*/
 
-.container-studio {
-    margin: 0% 9% 0% 2%;
-}
+
 .studio-colum1 {
     margin: 0% 0% 0% 0%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
     padding-left: 20px;
+    border-radius: 2%;
     vertical-align: middle;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.02);
@@ -179,7 +176,7 @@ a:hover {
     vertical-align: middle;
     font-size: 14px; 
     color: rgba(252, 251, 249, 0.95)!important;
-    background-color: rgba(10, 10, 10, 0.95);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -192,24 +189,24 @@ a:hover {
     padding-right: 20px;
     padding-left: 20px;
     vertical-align: middle;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .prices-colum1 {
     margin: 0% 1% 0% 1%;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(95, 90, 78, 0.95)!important;
-    background-color: rgba(250, 249, 246, 0.92);
+    color: rgba(255, 254, 253, 0.95)!important;
+    background-color: rgba( 0, 0, 0, 0.8);
 }
 .prices-colum2 {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(95, 90, 78, 0.95)!important;
-    background-color: rgba(250, 249, 246, 0.92);
+   color: rgba(255, 254, 253, 0.95)!important;
+    background-color: rgba( 0, 0, 0, 0.8);
 }
 .prices-colum3 {
     padding-top: 10px;
@@ -218,8 +215,8 @@ a:hover {
     padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(95, 90, 78, 0.95)!important;
-    background-color: rgba(250, 249, 246, 0.92);
+    color: rgba(255, 254, 253, 0.95)!important;
+    background-color: rgba( 0, 0, 0, 0.8);
 }
 .prices-colum4 {
     padding-top: 10px;
@@ -228,8 +225,8 @@ a:hover {
     padding-left: 10px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(95, 90, 78, 0.95)!important;
-    background-color: rgba(250, 249, 246, 0.92);
+    color: rgba(255, 254, 253, 0.95)!important;
+    background-color: rgba( 0, 0, 0, 0.8);
 }
 
 
@@ -240,13 +237,15 @@ a:hover {
                 /*Booking*/
 
 container-booking {
-    margin: 5% 3% 5% 3%;
+    margin: 0% 3% 0% 3%;
     border-color: rgba(252, 190, 56, 0.98);
     border-radius: 3%;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30px;
     padding-left: 70px;
+    color: rgba(255, 254, 253, 0.95)!important;
+    background-color: rgba( 0, 0, 0, 0.8);
 }
 .booking-colum1 {
     margin: 2% 3% 5% 3%;
@@ -352,6 +351,7 @@ container-booking {
     padding-left: 20px;
     vertical-align: middle;
     text-align: center;
+    border-radius: 2%;
 }
 
 
