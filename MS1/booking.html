@@ -46,7 +46,7 @@
                 <div class="transbox">
                     <div class="row">
                         <div class="container-booking col-md-12">
-                            <div class="row d-flex justify-content-around">
+                            <div class="row d-flex justify-content-center">
                                 <div class="col-md-4 booking-colum1">
                                     <h6>BOOKING INFORMATION:</h6>
                                     <form>
@@ -80,166 +80,163 @@
                                         </div>
                                     </form>
                                     <br/>
-                                    <div class="d-flex align-content-end align-self-center">
-                                        <button class="btn btn-primary" type="submit"  data-toggle="modal" data-target="#staticBackdrop">ORDER REQUEST
+                                    <div class="row justify-content-center">
+                                        <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#staticBackdrop">BOOKING REQUEST
                                         </button>
                                         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                             <div class="modal-dialog">
                                                 <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h6 class="modal-title" id="staticBackdropLabel">ORDER REQUEST</h6>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <form class="needs-validation" novalidate method="POST" enctype="multipart/form-data" name="EmailForm">
-                                                        <div class="form-group">
+                                                    <div class="modal-header">
+                                                        <h6 class="modal-title" id="staticBackdropLabel">ORDER REQUEST</h6>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form class="needs-validation" novalidate method="POST" enctype="multipart/form-data" name="EmailForm">
+                                                            <div class="form-group">
                                                                 <div class="form-group input-group-sm companyName">
-                                                                    <label for="validationCustom01">Company Name:</label>
-                                                                    <input type="text" class="form-control form-control-sm" id="validationCustom01" required>
-                                                                    <div class="valid-feeback">
-                                                                    </div>
+                                                                        <label for="validationCustom01">Company Name:</label>
+                                                                        <input type="text" class="form-control form-control-sm" id="validationCustom01" required>
+                                                                        <div class="valid-feeback">
+                                                                        </div>
                                                                 </div>
                                                                 <div class="form-group input-group-sm contactPerson">
-                                                                    <label for="validationCustom02">Contact Person:</label>
-                                                                    <input type="text" class="form-control form-control-sm" id="validationCustom02" required>
-                                                                    <div class="valid-feeback">
-                                                                    </div>
+                                                                        <label for="validationCustom02">Contact Person:</label>
+                                                                        <input type="text" class="form-control form-control-sm" id="validationCustom02" required>
+                                                                        <div class="valid-feeback">
+                                                                        </div>
                                                                 </div>
                                                                 <div class="form-group input-group-sm projectInfo">
-                                                                    <label for="validationCustom03">Project Information:</label>
-                                                                    <input type="text" class="form-control form-control-sm" id="validationCustom03" required>
-                                                                    <div class="invalid-feeback">
-                                                                    </div>
+                                                                        <label for="validationCustom03">Project Information:</label>
+                                                                        <input type="text" class="form-control form-control-sm" id="validationCustom03" required>
+                                                                        <div class="invalid-feeback">
+                                                                        </div>
                                                                 </div> 
                                                                 <div class="form-group input-group-sm email">
-                                                                    <label for="validationCustom04">Email:</label>
-                                                                    <input type="email" class="form-control form-control-sm" id="validationCustom04" required>
-                                                                    <div class="invalid-feeback">
-                                                                    </div>
+                                                                        <label for="validationCustom04">Email:</label>
+                                                                        <input type="email" class="form-control form-control-sm" id="validationCustom04" required>
+                                                                        <div class="invalid-feeback">
+                                                                        </div>
                                                                 </div>
-                                                        </div>
-                                                        <div class="no-tracks input-group-sm">
+                                                            </div>
+                                                            <div class="no-tracks input-group-sm">
                                                                 <div class="form-row d-flex justify-content-around">
                                                                     <div class="no-tracks col-3">
                                                                         <label class="mr-md-1" for="inlineFormCustomSelect">Main Trk:</label>
-                                                                            <select class="form-control form-control-sm" id="inlineFormCustomSelect" required>
-                                                                                    <option selected></option>
-                                                                                    <option value="0">0</option>
-                                                                                    <option value="1">1</option>
-                                                                                    <option value="2">2</option>
-                                                                                    <option value="3">3</option>
-                                                                                    <option value="4">4</option>
-                                                                                    <option value="5">5</option>
-                                                                                    <option value="6">6</option>
-                                                                                    <option value="7">7</option>
-                                                                                    <option value="8">8</option>
-                                                                                    <option value="9">9</option>
-                                                                                    <option value="10">10</option>
-                                                                                    <option value="11">11</option>
-                                                                                    <option value="12">12</option>
-                                                                            </select>        
+                                                                        <select class="form-control form-control-sm" id="inlineFormCustomSelect" required>
+                                                                            <option selected></option>
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                        </select>        
                                                                     </div>
                                                                     <div class="no-tracks col-3">
                                                                         <label class="mr-md-1" for="inlineFormCustomSelect2">SB Trk:</label>
-                                                                            <select class="form-control form-control-sm" id="inlineFormCustomSelect2" required>
-                                                                                            <option selected></option>
-                                                                                            <option value="0">0</option>
-                                                                                            <option value="1">1</option>
-                                                                                            <option value="2">2</option>
-                                                                                            <option value="3">3</option>
-                                                                                            <option value="4">4</option>
-                                                                                            <option value="5">5</option>
-                                                                                            <option value="6">6</option>
-                                                                                            <option value="7">7</option>
-                                                                                            <option value="8">8</option>
-                                                                                            <option value="9">9</option>
-                                                                                            <option value="10">10</option>
-                                                                                            <option value="11">11</option>
-                                                                                            <option value="12">12</option>
-                                                                            </select>     
+                                                                        <select class="form-control form-control-sm" id="inlineFormCustomSelect2" required>
+                                                                            <option selected></option>
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                        </select>     
                                                                     </div>
                                                                     <div class="no-tracks col-3">
                                                                         <label class="mr-md-1" for="inlineFormCustomSelect3">Ins Trk:</label>
-                                                                            <select class="form-control form-control-sm" id="inlineFormCustomSelect3" required>
-                                                                                            <option selected></option>
-                                                                                            <option value="0">0</option>
-                                                                                            <option value="1">1</option>
-                                                                                            <option value="2">2</option>
-                                                                                            <option value="3">3</option>
-                                                                                            <option value="4">4</option>
-                                                                                            <option value="5">5</option>
-                                                                                            <option value="6">6</option>
-                                                                                            <option value="7">7</option>
-                                                                                            <option value="8">8</option>
-                                                                                            <option value="9">9</option>
-                                                                                            <option value="10">10</option>
-                                                                                            <option value="11">11</option>
-                                                                                            <option value="12">12</option>
-                                                                            </select>
+                                                                        <select class="form-control form-control-sm" id="inlineFormCustomSelect3" required>
+                                                                            <option selected></option>
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                            <option value="9">9</option>
+                                                                            <option value="10">10</option>
+                                                                            <option value="11">11</option>
+                                                                            <option value="12">12</option>
+                                                                        </select>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="row-form form-group">
-                                                                    <div class="form-row ">
-                                                                        <legend class="col-form-label">(Choose one:)</legend>
-                                                                        <div>
-                                                                            <div class="form-check custom-control custom-radio">
-                                                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation1" required>
-                                                                                <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
-                                                                            </div>
-                                                                            <div class="form-check custom-control custom-radio">
-                                                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation2" required>
-                                                                                <label class="custom-control-label" for="customControlValidation2">PREMASTER EP</label>
-                                                                            </div>
-                                                                            <div class="form-check custom-control custom-radio">
-                                                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation3" required>
-                                                                                <label class="custom-control-label" for="customControlValidation3">PREMASTER Album</label>
-                                                                            </div>
-                                                                            <div class="form-check custom-control custom-radio">
-                                                                                <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation4" required>
-                                                                                <label class="custom-control-label" for="customControlValidation4">None</label>
-                                                                            </div>
+                                                                <div class="form-row">
+                                                                    <legend class="col-form-label">(Choose one:)</legend>
+                                                                    <div>
+                                                                        <div class="form-check custom-control custom-radio">
+                                                                            <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation1" required>
+                                                                            <label class="custom-control-label" for="customControlValidation1">PREMASTER Single</label>
                                                                         </div>
-                                                                        <div class="d-flex align-content-end align-self-center">
-                                                                            <button class="btn btn-primary" type="submit">SUBMIT REQUEST
-                                                                            </button>
+                                                                        <div class="form-check custom-control custom-radio">
+                                                                            <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation2" required>
+                                                                            <label class="custom-control-label" for="customControlValidation2">PREMASTER EP</label>
+                                                                        </div>
+                                                                        <div class="form-check custom-control custom-radio">
+                                                                            <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation3" required>
+                                                                            <label class="custom-control-label" for="customControlValidation3">PREMASTER Album</label>
+                                                                        </div>
+                                                                        <div class="form-check custom-control custom-radio">
+                                                                            <input type="radio" class="custom-control-input" name="radio-stacked" id="customControlValidation4" required>
+                                                                            <label class="custom-control-label" for="customControlValidation4">None</label>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="offset-md-3">
+                                                                        <button class="btn btn-primary" type="submit">SUBMIT REQUEST
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    </form> 
+                                                        </form> 
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    </div>
                                                 </div>
-                                                <div class="modal-footer">
-                                                    <p>Important!
-                                                    The engineer will contact you within 24h from the conformation mail.</p>
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </div>
-                                              
                                             </div>
                                         </div>
                                         <script>
-                                                                (function() {
-                                                                'use strict';
-                                                                window.addEventListener('load', function() {
-                                                                    var forms = document.getElementsByClassName('needs-validation');
-                                                                    var validation = Array.prototype.filter.call(forms, function(form) {
-                                                                    form.addEventListener('submit', function(event) {
-                                                                        if (form.checkValidity() === false) {
-                                                                            event.preventDefault();
-                                                                            event.stopPropagation();
-                                                                        } else {
-                                                                            event.preventDefault();
-                                                                            event.stopPropagation();
-                                                                            alert('Thank you!');
-                                                                        }
-                                                                        form.classList.add('was-validated');
-                                                                        
-                                                                    }, false);
-                                                                    });
-                                                                }, false);
-                                                                })();
+                                            (function() {
+                                            'use strict';
+                                            window.addEventListener('load', function() {
+                                                var forms = document.getElementsByClassName('needs-validation');                                                    
+                                                var validation = Array.prototype.filter.call(forms, function(form) {
+                                                form.addEventListener('submit', function(event) {
+                                                    if (form.checkValidity() === false) {
+                                                        event.preventDefault();
+                                                        event.stopPropagation();
+                                                    } else {
+                                                        event.preventDefault();
+                                                        event.stopPropagation();
+                                                        alert('Thank you! Your booking request have been submitet. The engineer will contact you within 24h from the conformation mail.');
+                                                    }
+                                                    form.classList.add('was-validated');
+                                                                            
+                                                }, false);
+                                                });
+                                            }, false);
+                                            })();
                                         </script>
                                     </div>
                                 </div>

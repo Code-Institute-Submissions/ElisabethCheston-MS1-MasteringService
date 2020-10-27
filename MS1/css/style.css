@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
 
-
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
@@ -13,13 +12,14 @@ body {
 }
 
                 /* Header */
+
 .h5 {
     color: rgba(252, 190, 56, 0.98);
     text-decoration: none;
 }
 .h6 {
     font-weight: bold;
-    color: rgba(250, 250, 250, 1.0);
+    color: rgba(255, 255, 255, 0.95)!important;
 }
 
                 /* Links */
@@ -78,7 +78,7 @@ a:hover {
                 /*Home*/
 
 .carousel-item, h2 {
-    font-style: bolder;
+    font-style: bold;
     color: rgba(231, 153, 49, 0.98)
 }
 .carousel-caption {
@@ -96,7 +96,7 @@ a:hover {
     padding-left: 25px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
     background-color: rgba(0, 0, 0, 0.85);
 }
 .about-colum2 {
@@ -131,7 +131,7 @@ a:hover {
     border-radius: 40%;
     font-size: 15px;
     text-align: left;
-    color: #fbfbfb;
+    color: rgba(250, 250, 250, 0.98)!important;
     background-color: rgba(248, 227, 108, 0.18)!important;
 }
 
@@ -152,10 +152,9 @@ a:hover {
     padding-left: 25px;
     vertical-align: middle;
     font-size: 14px; 
-    color: rgba(252, 251, 249, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
     background-color: rgba(0, 0, 0, 0.8);
 }
-
 
                 /*Prices*/
 
@@ -167,7 +166,7 @@ a:hover {
     padding-left: 20px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(255, 254, 253, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
     background-color: rgba( 0, 0, 0, 0.85);
 }
 .prices-colum2 {
@@ -176,7 +175,7 @@ a:hover {
     padding-left: 5px;
     vertical-align: middle;
     font-size: 13px;
-    color: rgba(255, 254, 253, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
 }
 .prices-colum3 {
     padding-bottom: 20px;
@@ -184,7 +183,7 @@ a:hover {
     padding-left: 5px;
     vertical-align: middle;
     font-size: 13px;
-    color: rgba(255, 254, 253, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
 }
 .prices-colum4 {
     padding-bottom: 20px;
@@ -192,26 +191,14 @@ a:hover {
     padding-left: 5px;
     vertical-align: middle;
     font-size: 13px;
-    color: rgba(255, 254, 253, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
 }
 .price-header {
     color: rgba(238, 170, 78, 0.95)
-    
 }
 
                 /*Booking*/
 
-container-booking {
-    margin: 0% 3% 0% 3%;
-    border-color: rgba(252, 190, 56, 0.98);
-    border-radius: 3%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-    padding-left: 70px;
-    color: rgba(255, 254, 253, 0.95)!important;
-    background-color: rgba( 0, 0, 0, 0.9);
-}
 .booking-colum1 {
     border-bottom-width: 4px;
     padding-top: 30px;
@@ -220,18 +207,17 @@ container-booking {
     padding-left: 20px;
     vertical-align: middle;
     font-size: 14px;
-    color: rgba(253, 252, 250, 0.95)!important;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(250, 250, 250, 0.9)!important;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 .form-row {
     margin-top: 20px;
     margin-left: 20px;
-    color: rgba(250, 250, 245, 0.95)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
 }
 .btn-primary {
     font-size: 14px;
     color: rgba(238, 170, 78, 0.98);
-    margin-left: 80px;
     border-radius: 13%;
     background-color: rgba(145, 144, 142, 0.38)!important;
     border-color:  rgba(145, 145, 145, 0.68);
@@ -249,12 +235,12 @@ container-booking {
 .modal {
     border: 40px;
     border-radius: 2%;
-    background-color: rgba(5, 5, 5, 0.38)!important;
+    background-color: rgba(49, 49, 49, 0.38)!important;
     border-color:  rgba(230, 227, 227, 0.68);
 }
 .modal-content {
     border: 4px;
-    border-radius: 2;
+    border-radius: 2%;
     font-size: 14px;
     color: rgba(238, 170, 78, 0.98);
     background-color: rgba(50, 50, 50, 0.96)
@@ -293,7 +279,6 @@ container-booking {
     border-color:  rgba(145, 145, 145, 0.68);
 }
 
-
                 /*Contact*/
 
 .contact-colum1 {
@@ -302,7 +287,7 @@ container-booking {
     padding-right: 20px;
     padding-left: 30px;
     font-size: 14px;
-    color: rgba(253, 252, 250, 0.9)!important;
+    color: rgba(250, 250, 250, 0.9)!important;
     background-color: rgba(0, 0, 0, 0.8);
 }
 .contact-colum2 {
@@ -312,7 +297,6 @@ container-booking {
     text-align: center;
     border-radius: 1%;
 }
-
 
                 /* Footer */
 
@@ -345,12 +329,10 @@ container-booking {
 .social-links li a i {
     width: 25px;
     height: 25px;
-    padding: 0px 0px 0px 0px;
     border-radius: 40%;
     font-size: 25px;
     color: #fbfbfb;
     background-color: rgba(248, 227, 108, 0.18);
-
     transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4 ease-in-out;
