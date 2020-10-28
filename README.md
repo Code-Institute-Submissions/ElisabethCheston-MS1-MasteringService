@@ -87,7 +87,7 @@ Every page has a navbar with a logo and links to all the pages. At the bottom ad
 
 [Bootstrap](http://getbootstrap.com/) - Used for carousel function, image gallery, order form with validation, modal response message, table for price list, some of the navbar code.
 
-[GitHub project - Resume](https://github.com/Code-Institute-Solutions/ucd-resume-1) - The code for social links but modifyed.
+[GitHub project - Resume](https://github.com/Code-Institute-Solutions/ucd-resume-1) - The code for social links from the Resume CI project but modifyed.
 
 [GitHub project - Beyond Bootstraps](https://github.com/Code-Institute-Solutions/BootstrapLandingPage/blob/213b251a8b2d7a2d0a8c7585073d616a09106beb/04-beyond_bootstrap/index.html) - Background style with dark transbox and navbar ide from the whiskey CI project but modified.
 
