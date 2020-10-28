@@ -44,7 +44,7 @@ The goal with this webpage is to target users in need of professional mastering.
 
 * As a user I would like to know the background of the engineer, so. I would feel more secure and comfortable working with her.
 
-[Engineer Page](https://elisabethcheston.github.io/MS1-MasteringService/)
+[Engineer Page](https://elisabethcheston.github.io/MS1-MasteringService/engineer.html)
 
 
 
